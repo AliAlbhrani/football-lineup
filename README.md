@@ -1,18 +1,13 @@
 ## football lineup project
 Its a simple college project takes x-y-z from the user and visualize the lineup in an easy and pretty way possible
 
-   ___               __    __                ___    ___      
- /'___\             /\ \__/\ \              /\_ \  /\_ \     
-/\ \__/  ___     ___\ \ ,_\ \ \____     __  \//\ \ \//\ \    
-\ \ ,__\/ __`\  / __`\ \ \/\ \ '__`\  /'__`\  \ \ \  \ \ \   
- \ \ \_/\ \L\ \/\ \L\ \ \ \_\ \ \L\ \/\ \L\.\_ \_\ \_ \_\ \_ 
-  \ \_\\ \____/\ \____/\ \__\\ \_,__/\ \__/.\_\/\____\/\____\
- __\/_/ \/___/  \/___/  \/__/ \/___/  \/__/\/_/\/____/\/____/
-/\_ \    __                                                  
-\//\ \  /\_\    ___      __   __  __  _____                  
-  \ \ \ \/\ \ /' _ `\  /'__`\/\ \/\ \/\ '__`\                
-   \_\ \_\ \ \/\ \/\ \/\  __/\ \ \_\ \ \ \L\ \               
-   /\____\\ \_\ \_\ \_\ \____\\ \____/\ \ ,__/               
-   \/____/ \/_/\/_/\/_/\/____/ \/___/  \ \ \/                
-                                        \ \_\                
-                                         \/_/     
+### How to run
+1. Clone the repository
+2. Run the compiler and run the program
+3. Enter the values and see the magic
+`sh 
+Usage: 
+./main 
+    example:
+    Enter your lineup(x-y-z): 4-3-3
+`
