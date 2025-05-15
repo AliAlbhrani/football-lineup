@@ -1,6 +1,3 @@
-## football lineup project
-Its a simple college project takes x-y-z from the user and visualize the lineup in an easy and pretty way possible
-
    ___               __    __                ___    ___      
  /'___\             /\ \__/\ \              /\_ \  /\_ \     
 /\ \__/  ___     ___\ \ ,_\ \ \____     __  \//\ \ \//\ \    
@@ -15,4 +12,9 @@ Its a simple college project takes x-y-z from the user and visualize the lineup 
    /\____\\ \_\ \_\ \_\ \____\\ \____/\ \ ,__/               
    \/____/ \/_/\/_/\/_/\/____/ \/___/  \ \ \/                
                                         \ \_\                
-                                         \/_/     
+                                         \/_/                
+======================================================================
+  CLI to visualise football lineup when user inputs a lineup format
+======================================================================
+    By: Group A (Ali Ammar Kareem, Aymen Ahmed, Amjed Mahmoud)
+======================================================================
