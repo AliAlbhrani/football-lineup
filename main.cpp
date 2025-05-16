@@ -39,7 +39,8 @@ void welcome(){
     cout << "======================================================================" << endl;
 }
 
-int main(){
+
+void loop(){
     int dash = 0;
     int total = 0;
     int lineupArr[3];
@@ -50,7 +51,7 @@ int main(){
     if(lineup.length() != 5){
         cout << "[ERROR] Invalid lineup" << endl;
         cout << usage() << endl;
-        return 0;
+        return;
     }
     for(int i = 0; i < lineup.length(); i++){
         if(lineup[i] == '-'){
@@ -63,11 +64,11 @@ int main(){
     if(dash != 2){
         cout << "[ERROR] Invalid lineup you can't use more than two dashes" << endl;
         cout << usage() << endl;
-        return 0;
+        return;
     }
     if(total !=  10){
         cout << "[ERROR] You can't have more/less than 10 players" << endl;
-        return 0;
+        return;
     }
     for (int i = 2; i >= 0; i--) {
         print_row(lineupArr[i]);
@@ -75,5 +76,21 @@ int main(){
     }
     print_row(1,50,"0");
     cout << endl;
+    return;
+}
+
+int main(){
+    bool keepAlive = true;
+    while (keepAlive){
+        loop();
+        cout << "Do you want to continue? (y/n): ";
+        char choice;
+        cin >> choice;
+        if (choice == 'y' || choice == 'Y'){
+            keepAlive = true;
+        }else if (choice == 'n' || choice == 'N'){
+            keepAlive = false;
+        }
+    }
     return 0;
 }
