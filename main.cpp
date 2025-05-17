@@ -35,7 +35,7 @@ void welcome(){
     cout << "======================================================================" << endl;
     cout << "  CLI to visualise football lineup when user inputs a lineup format   " << endl;
     cout << "======================================================================" << endl;
-    cout << "    By: Group A (Ali Ammar Kareem, Aymen Ahmed, Amjed Mahmoud)       " << endl;
+    cout << "  By: Group A (Ali Ammar, Aymen Ahmed, Amjed Mahmoud, Wisam Hisham)   " << endl;
     cout << "======================================================================" << endl;
 }
 
